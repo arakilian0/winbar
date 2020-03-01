@@ -1,0 +1,44 @@
+[
+    {
+        "title": "Microsoft Edge",
+        "command": "start microsoft-edge:",
+        "alias": ["Microsoft Edge", "microsoft edge", "Edge", "edge"],
+        "match": false
+    },
+    {
+        "title": "File Explorer",
+        "command": "start C:\\",
+        "alias": ["Explorer", "explorer", "Files", "files", "File Explorer", "file explorer"],
+        "match": false
+    },
+    {
+        "title": "Settings",
+        "command": "start ms-settings:",
+        "alias": ["Settings", "settings"],
+        "match": false
+    },
+    {
+        "title": "Task Manager",
+        "command": "taskmgr",
+        "alias": ["Task Manager", "task manager", "Tasks", "tasks"],
+        "match": false
+    },
+    {
+        "title": "Command Prompt",
+        "command": "start cmd.exe",
+        "alias": ["Command Prompt", "command prompt", "Terminal", "terminal"],
+        "match": false
+    },
+    {
+        "title": "Control Panel",
+        "command": "control panel",
+        "alias": ["Control Panel", "control panel", "Panel", "panel"],
+        "match": false
+    },
+    {
+        "title": "Calculator",
+        "command": "calc",
+        "alias": ["Calculator", "calculator", "Calc", "calc"],
+        "match": false
+    }
+]

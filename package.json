@@ -1,12 +1,30 @@
 {
   "name": "winbar",
-  "version": "0.1.0",
-  "description": "SOME APP",
-  "main": "index.js",
+  "version": "0.3.1",
+  "description": "Windows Desktop Application, kinda like Mac OS's Spotlight Feature.",
+  "main": "src/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "electron .",
+    "build": "gulp clean && gulp build && gulp copy && gulp rename && gulp zip",
+    "clean": "gulp clean",
+    "test": "gulp test",
+    "publish": "echo \"No publish specified\" && exit 0"
   },
-  "keywords": [],
-  "author": "",
-  "license": "MIT"
+  "keywords": [
+    "windows",
+    "utility",
+    "app"
+  ],
+  "author": "Michael Arakilian",
+  "license": "MIT",
+  "devDependencies": {
+    "bestzip": "^2.1.5",
+    "del": "^5.1.0",
+    "electron": "^8.0.2",
+    "electron-packager": "^14.2.1",
+    "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "openurl": "^1.1.1"
+  }
 }
