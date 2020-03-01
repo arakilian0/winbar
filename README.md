@@ -1,4 +1,4 @@
-# winbar
+# Winbar
 
 **MORE COMING SOON**
 
