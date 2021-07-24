@@ -1,6 +1,6 @@
 # Winbar
 
-**MORE COMING SOON**
+Windows Desktop Application, kinda like Mac OS's Spotlight Feature
 
 ## License
 MIT License
